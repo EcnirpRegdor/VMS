@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(214, 236, 255);
+}
+
+.overridecolor{
+    --bs-table-color: rgb(214, 236, 255) !important;
+}
+
+.close{
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    color: inherit;
+    }
+
+.modal-logs {
+    background-color: rgb(255, 255, 255); min-width: 50%; max-width:100%; 
+    border-bottom-left-radius: 0 !important; border-top-left-radius: 0 !important; border-left-style: solid; border-width: thin; border-color: rgb(201, 201, 201);
+}
+
+.choices__inner {
+    background-color: white !important;
+    border-radius: 4.5px !important;
+}
+
+.item {
+box-sizing: border-box;
+}

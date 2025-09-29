@@ -1,0 +1,225 @@
+body {
+    background-color: rgb(214, 236, 255);
+}
+
+:root {
+    /* --bs-primary: #234cd3; */
+    --bs-secondary:#5c70ae;
+    --bs-muted:#04AA6D;
+}
+
+[data-bs-theme="dark"] body {
+    background-color: #373737 !important;
+}
+
+[data-bs-theme="dark"] .bg-white, [data-bs-theme="dark"] .choices__inner, [data-bs-theme="dark"] .choices__list, [data-bs-theme="dark"] .choices__input{
+    background-color: #212529 !important;
+    color:white;
+}
+
+[data-bs-theme="dark"] .choices__item--selectable:hover, [data-bs-theme="dark"] .apexcharts-tooltip{
+    color:black;
+}
+
+[data-bs-theme="dark"] .text-black {
+    color: white !important;
+}
+
+[data-bs-theme="dark"] tspan {
+    fill: white;
+}
+
+.viewaligntoCenter{
+    width: 45%;
+    align-self: anchor-center;
+}
+
+.cbtn-group{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.infoColumn{
+    flex: 1 0 auto;
+}
+
+.info-column:nth-child(2) {
+    align-self: flex-start;
+  }
+
+.trCreatedBy{
+    --bs-table-bg: #eaf5f2 !important;
+}
+
+[data-bs-theme="dark"] .trCreatedBy{
+    --bs-table-bg: #232e2a !important;
+}
+
+
+.visitorLogs {
+    background-color: aliceblue;
+}
+
+[data-bs-theme="dark"] .visitorLogs {
+    background-color: transparent;
+}
+
+
+
+.btn-secondary{
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+}
+
+.btn-muted{
+    background-color: var(--bs-muted);
+    border-color: var(--bs-muted);
+    color: white;
+}
+
+.bg-muted{
+    background-color: var(--bs-muted);
+    color: white;
+}
+
+.dformselectDept{
+    border-color: var(--bs-muted);
+    border-width: 3.3px;
+}
+
+.btn-muted:hover, .btn-muted.active{
+    background-color: #278660;
+    color: white;
+}
+
+.toggle-btn.active{
+    background-color:#2b55dd;
+}
+
+.btn-muted:active{
+    background-color: #46ae6e;
+}
+
+.azurebtn{
+    width: -webkit-fill-available;
+    background-color: white; border-color: lightgray;
+}
+
+.azurebtn:hover{
+    background: var(--bs-primary);
+    color:white;
+}
+
+.gradbg {
+    background-image: linear-gradient(to bottom right, rgb(114, 189, 255),#8fffd0);
+    height: 100vh;
+    margin: 0;
+    }
+
+.op-5{
+    opacity: 0.5 !important;
+}
+
+.close{
+    font-size: large;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    color: inherit;
+    }
+
+    .modal-logs {
+        min-width: 50%; max-width:100%; 
+        border-bottom-left-radius: 0 !important; border-top-left-radius: 0 !important; border-left-style: solid; border-width: thin; border-color: rgb(201, 201, 201);
+    }
+
+    .choices__inner {
+        background-color: white;
+        border-radius: 4.5px;
+    }
+
+.fs-tiny{
+    font-size: 14px;
+}
+
+.nav-link.active {
+    color:gray;
+}
+
+.addButton {
+    max-height: 37.5px;
+}
+
+
+.btnclass {
+    height: 120px;
+    width: 200px;
+    background-color: rgb(131, 206, 241);
+    border-color: none;
+    box-shadow: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    align-items: center;
+    }
+    .dailyVisits, .monthlyVisits, .yearlyVisits {
+        text-decoration: none;
+    }
+    .dailyVisits:hover, .monthlyVisits:hover, .yearlyVisits:hover{
+        background-color: rgb(194, 221, 253);
+        opacity: 0.9;
+    }
+
+    .TotalVisitorsToday {
+    background-color: rgb(130, 192, 244);
+    }
+    .CurrentCheckins {
+    background-color: rgb(139, 219, 139);
+    }
+    .ExpectedVisitors {
+    background-color:rgb(227, 209, 168);
+    }
+    .FlaggedVisitors {
+    background-color:rgb(229, 160, 160);
+    }
+
+    .btnclass:hover{
+        background-color: rgb(198, 198, 198);
+        opacity: 0.8;
+    }
+    .visitorLogs {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .frequentVisits {
+        max-height: 25vh;
+        overflow-y: auto;
+    }
+
+    .VisitorFrqMssg{
+        color:rgb(46, 46, 46);
+        background-color: rgb(191, 191, 191);
+        border-color: rgb(52, 52, 52);
+        border-left-style: solid;
+    }
+
+    .statusGood{
+        color:rgb(47, 118, 181);
+        background-color: rgb(187, 217, 244);
+        border-color: rgb(47, 118, 181);
+        border-left-style: solid;
+    }
+
+    .statusSuccess{
+        color:rgb(47, 181, 67);
+        background-color: rgb(187, 217, 244);
+        border-color: rgb(47, 181, 67);
+        border-left-style: solid;
+    }
+
+    .statusBad{
+        color:rgb(181, 47, 47);
+        background-color: rgb(244, 187, 187);
+        border-color: rgb(181, 47, 47);
+        border-left-style: solid;
+    }
