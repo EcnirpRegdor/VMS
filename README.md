@@ -19,3 +19,4 @@ A Laravel-based web application for managing visitor records for each department
 4. Run `php artisan key:generate`
 5. Run `php artisan migrate`
 6. Start the local server with `php artisan serve`
+7. use email "admin@example.com" and password "password" to view for testing purposes
